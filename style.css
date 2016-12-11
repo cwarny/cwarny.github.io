@@ -80,3 +80,7 @@
 .padded {
 	padding-bottom:8px;
 }
+
+.container {
+	width: 1150px !important;
+}
