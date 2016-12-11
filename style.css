@@ -3,6 +3,26 @@
 	src: url(fonts/geo_sans_light/GeosansLight.ttf);
 }
 
+@font-face {
+	font-family: 'Anaheim';
+	src: url(fonts/Anaheim/Anaheim-Regular.ttf);
+}
+
+@font-face {
+	font-family: 'Coming Soon';
+	src: url(fonts/Coming_Soon/ComingSoon.ttf);
+}
+
+@font-face {
+	font-family: 'Open Sans Condensed';
+	src: url(fonts/Open_Sans_Condensed/OpenSans-CondLight.ttf);
+}
+
+@font-face {
+	font-family: 'Oswald';
+	src: url(fonts/Oswald/Oswald-Regular.ttf);
+}
+
 .title {
 	font-family: 'GeoSans', sans-serif;
 	font-size: 65px;
