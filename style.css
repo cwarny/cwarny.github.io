@@ -1,3 +1,8 @@
+@page {
+	size: 21cm 29.7cm;
+	margin: 8mm 15mm 8mm 15mm; /* change the margins as you want them to be. */
+}
+
 @font-face {
 	font-family: 'GeoSans';
 	src: url(fonts/geo_sans_light/GeosansLight.ttf);
@@ -31,20 +36,20 @@
 .tagline {
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-size: 25px;
-	color: grey;
+	color: grey !important;
     margin-left: 5px;
 }
 
 .subtitle {
 	font-family: 'Oswald', sans-serif;
 	font-size: 25px;
-	border-bottom: medium solid grey;
+	border-bottom: medium solid grey !important;
 }
 
 .info {
 	font-family: 'Coming Soon', cursive;
-	font-size: 20px;
-	color:grey;
+	font-size: 18px;
+	color:grey !important;
 }
 
 .info span {
@@ -63,7 +68,7 @@
 
 .section-title {
 	font-family: 'Open Sans Condensed', sans-serif;
-	color: grey;
+	color: grey !important;
 	font-size: 21px;
 }
 
@@ -74,14 +79,13 @@
 }
 
 .vline {
-	border-right: thin solid grey;
+	border-right: thin solid grey !important;
 	padding-right: 5px;
 }
 
 .circle {
 	width: 25px;
 	height: 25px;
-	background: black;
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
@@ -90,17 +94,24 @@
 }
 
 .black {
-	background:black;
+	background:black !important;
 }
 
 .grey {
-	background:#f0f0f0; 
+	background:#f0f0f0 !important; 
 }
 
 .padded {
 	padding-bottom:8px;
 }
 
-.container {
-	width: 1200px !important;
+.well {
+	background-color: #f5f5f5 !important;
+	border: 1px solid #e3e3e3 !important;
+}
+
+@media screen {
+	.container {
+		width: 1100px !important;
+	}
 }
